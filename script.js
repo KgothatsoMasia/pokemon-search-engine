@@ -53,18 +53,18 @@ async function getPokData() {
             hps.innerText = `Hp: ${hp}`;
 
             const attacks = document.getElementById("attack");
-            attacks.textContent = attack;
+            attacks.textContent = `Attack: ${attack}`;
             const defenses = document.getElementById("defense"); 
-            defenses.textContent = defense;
+            defenses.textContent = `Defense: ${defense}`;
 
             const specialAttack = document.getElementById("special-attack");
-            specialAttack.textContent = spAttack;
+            specialAttack.textContent = `Sp-attack: ${spAttack}`;
 
             const specialDefense = document.getElementById("special-defense");
-            specialDefense.textContent = spDefense;
+            specialDefense.textContent = `Sp-defense: ${spDefense}`;
                                                                                                                                                                                                                                                                                                               
             const speeds =document.getElementById("speed");
-            speeds.textContent = speed;
+            speeds.textContent = `Speed: ${speed}`;
             }
                                                                                                                                                                                                                                                                                                                                            
      }
