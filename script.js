@@ -50,7 +50,7 @@ async function getPokData() {
             heights.textContent = height;
 
             const hps = document.getElementById("hp");
-            hps.textContent = `Hp: ${hp}`;
+            hps.innerText = `Hp: ${hp}`;
 
             const attacks = document.getElementById("attack");
             attacks.textContent = attack;
