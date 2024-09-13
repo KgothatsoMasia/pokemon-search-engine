@@ -23,8 +23,10 @@ header {
     text-align: center;
     font-size: 25px;
     font-weight: 600;
-    color: wheat;
-    background-color: red;
+    width: 430px;
+    height: 130px;
+    color: ffffff;
+    background-color: rgba(255, 217, 69, 1);
   }
 #search-input {
     color: wheat;
@@ -35,7 +37,7 @@ header {
     width: 260px;
     border: 2px solid red;
     border-radius: 10px 0 0 10px;
-    background-image: linear-gradient(to right, red, yellow);
+    background-color:rgba(121, 157, 153, 1);
   }
 input::placeholder {
     color: #ffffff;
@@ -48,7 +50,7 @@ button {
     width: 50px;
     border: 2px solid red;
     border-radius: 0 10px 10px 0;
-    background-color: yellow;
+    background-color:rgba(121, 157, 153, 1);;
   }
 #pokemon-name {
     text-align: center;
@@ -85,7 +87,7 @@ img {
   }
 fieldset {
     width: 100%;
-    background-color: red;
+    background-color:rgba(121, 157, 153, 1);;
     border: 1px solid yellow;
   }
 legend {
@@ -96,7 +98,7 @@ legend {
 #id, #weight, #height, #hp, #attack, #defense, #special-attack, #special-defense, #speed {
     height: 30px;
     width: 100%;
-    background-color: red;
+    background-color:rgba(121, 157, 153, 1);;
   }
 #container {
     display: flex;
