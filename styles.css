@@ -5,9 +5,16 @@
     font-family: sans-serif;
   }
 #welcome-text {
+    width: 257px;
+    height: 77px;
+    font-size: 64px;
+    font-weight: 600;
     font-family: Irish-Grover;
 }
 #get-started {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 218px;
     height: 95px;
     border-radius: 30px;
