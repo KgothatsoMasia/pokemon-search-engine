@@ -5,7 +5,7 @@
     font-family: sans-serif;
   }
 body {
-    background-image: linear-gradient(to right, yellow, red);
+  background: url(images/pokemon-pikachu-neon-i71936.jpg);
   }
 header {
     position: fixed;
