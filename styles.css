@@ -5,6 +5,8 @@
     font-family: sans-serif;
   }
 #welcome-text {
+    display: flex;
+    text-align: center;
     width: 257px;
     height: 77px;
     font-size: 64px;
