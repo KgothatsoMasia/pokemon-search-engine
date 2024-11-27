@@ -117,8 +117,9 @@ legend {
     width: 100%;
     background-color:rgba(121, 157, 153, 1);;
   }
-#*container {
+#container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
