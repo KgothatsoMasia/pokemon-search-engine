@@ -42,6 +42,7 @@ header {
     top: 0;
     text-align: center;
     font-size: 50px;
+    width: auto;
     font-weight: 600;
     color: white;
     background-color: rgba(255, 217, 69, 1);
