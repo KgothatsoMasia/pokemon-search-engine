@@ -30,7 +30,7 @@
     background-color: rgba(55, 106, 164, 0.54);
 }
 body {
-  background: url(pokemon-pikachu-neon-i71936.jpg) no-repeat fixed center;
+  background: url(pokemon-pikachu-neon-i71936.jpg) no-repeat cover;
   }
 header {
     position: fixed;
