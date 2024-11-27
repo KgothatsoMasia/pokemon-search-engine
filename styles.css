@@ -4,6 +4,11 @@
     box-sizing: border-box;
     font-family: sans-serif;
   }
+#main-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 #welcome-text {
     display: flex;
     justify-content: center;
