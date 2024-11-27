@@ -114,7 +114,7 @@ legend {
   }
 #id, #weight, #height, #hp, #attack, #defense, #special-attack, #special-defense, #speed {
     height: 30px;
-    width: 100%;
+    width: auto;
     background-color:rgba(121, 157, 153, 1);;
   }
 #container {
@@ -129,7 +129,6 @@ legend {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: auto;
     gap: 1rem;
     font-size: 20px;
     font-weight: 900;
