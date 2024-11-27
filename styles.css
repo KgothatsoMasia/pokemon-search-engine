@@ -45,6 +45,8 @@ header {
     background-color: rgba(255, 217, 69, 1);
   }
 #search-input {
+    display: flex;
+    justify-content: center;
     color: wheat;
     font-size: 15px;
     font-weight: 600;
