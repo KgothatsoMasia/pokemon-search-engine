@@ -30,7 +30,7 @@
     background-color: rgba(55, 106, 164, 0.54);
 }
 body {
-  background: url(/pokemon-pikachu-neon-i71936.jpg);
+  background: url(pokemon-pikachu-neon-i71936.jpg) cover;
   }
 header {
     position: fixed;
@@ -114,11 +114,12 @@ legend {
   }
 #id, #weight, #height, #hp, #attack, #defense, #special-attack, #special-defense, #speed {
     height: 30px;
-    width: auto;
+    width: 100%;
     background-color:rgba(121, 157, 153, 1);;
   }
 #container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
